@@ -1,1 +1,111 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Layout container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(135deg, #004aad, #6c5ce7);
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.project-label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.meta {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* Card sections */
+.section {
+  margin-top: 25px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Quote box */
+.quote-box {
+  border-left: 4px solid #004aad;
+  padding-left: 15px;
+  margin-top: 15px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 17px;
+}
+
+.quote-author {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Video embed */
+.video-wrapper {
+  margin-top: 20px;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #666;
+  font-size: 14px;
+}
 
